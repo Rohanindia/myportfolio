@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 800">
+  <rect width="500" height="800" fill="#0C0C0C"/>
+  <rect x="0" y="0" width="500" height="56" fill="#0F1114"/>
+  <circle cx="26" cy="28" r="9" fill="#22C55E" opacity="0.8"/>
+  <text x="44" y="34" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#D7E2EA">GreenSense</text>
+  <text x="300" y="34" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.35">History &amp; Trends</text>
+  <!-- History heading -->
+  <text x="20" y="82" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.35" letter-spacing="2">CALCULATION HISTORY · FIRESTORE</text>
+  <!-- Month rows -->
+  <rect x="20" y="96" width="460" height="62" rx="12" fill="#141418"/>
+  <text x="36" y="118" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#D7E2EA">June 2026</text>
+  <text x="36" y="138" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.5">Car: 1.8t · Energy: 2.4t · Diet: 0.7t</text>
+  <text x="420" y="132" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#22C55E">4.2t</text>
+  <rect x="20" y="168" width="460" height="62" rx="12" fill="#141418"/>
+  <text x="36" y="190" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#D7E2EA" opacity="0.8">May 2026</text>
+  <text x="36" y="210" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.4">Car: 2.0t · Energy: 2.6t · Diet: 0.8t</text>
+  <text x="420" y="204" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#D7E2EA" opacity="0.6">5.1t</text>
+  <rect x="20" y="240" width="460" height="62" rx="12" fill="#141418"/>
+  <text x="36" y="262" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#D7E2EA" opacity="0.7">April 2026</text>
+  <text x="36" y="282" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.35">Car: 2.2t · Energy: 2.8t · Diet: 0.9t</text>
+  <text x="420" y="276" font-family="Arial,sans-serif" font-size="16" font-weight="700" fill="#D7E2EA" opacity="0.5">5.7t</text>
+  <!-- Trend chart -->
+  <text x="20" y="330" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.35" letter-spacing="2">6-MONTH TREND</text>
+  <rect x="20" y="342" width="460" height="180" rx="14" fill="#141418"/>
+  <!-- Trend line -->
+  <polyline points="50,460 130,440 210,420 290,398 370,380 430,356" fill="none" stroke="#22C55E" stroke-width="2.5" opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Data points -->
+  <circle cx="50" cy="460" r="4" fill="#22C55E" opacity="0.5"/>
+  <circle cx="130" cy="440" r="4" fill="#22C55E" opacity="0.6"/>
+  <circle cx="210" cy="420" r="4" fill="#22C55E" opacity="0.7"/>
+  <circle cx="290" cy="398" r="4" fill="#22C55E" opacity="0.8"/>
+  <circle cx="370" cy="380" r="4" fill="#22C55E" opacity="0.9"/>
+  <circle cx="430" cy="356" r="5" fill="#22C55E"/>
+  <!-- X labels -->
+  <text x="50" y="502" font-family="Arial,sans-serif" font-size="9" fill="#D7E2EA" opacity="0.3" text-anchor="middle">Jan</text>
+  <text x="130" y="502" font-family="Arial,sans-serif" font-size="9" fill="#D7E2EA" opacity="0.3" text-anchor="middle">Feb</text>
+  <text x="210" y="502" font-family="Arial,sans-serif" font-size="9" fill="#D7E2EA" opacity="0.3" text-anchor="middle">Mar</text>
+  <text x="290" y="502" font-family="Arial,sans-serif" font-size="9" fill="#D7E2EA" opacity="0.3" text-anchor="middle">Apr</text>
+  <text x="370" y="502" font-family="Arial,sans-serif" font-size="9" fill="#D7E2EA" opacity="0.3" text-anchor="middle">May</text>
+  <text x="430" y="502" font-family="Arial,sans-serif" font-size="9" fill="#22C55E" text-anchor="middle">Jun</text>
+  <!-- PDF export button -->
+  <rect x="20" y="544" width="460" height="52" rx="12" fill="#22C55E" opacity="0.1"/>
+  <rect x="20" y="544" width="460" height="52" rx="12" fill="none" stroke="#22C55E" stroke-width="1" opacity="0.25"/>
+  <text x="250" y="576" font-family="Arial,sans-serif" font-size="13" fill="#22C55E" text-anchor="middle" font-weight="700">⬇ Download PDF Report · jsPDF</text>
+  <!-- Badges -->
+  <rect x="20" y="614" width="100" height="28" rx="6" fill="#22C55E" opacity="0.08"/>
+  <text x="36" y="633" font-family="Arial,sans-serif" font-size="10" fill="#22C55E">MIT License</text>
+  <rect x="130" y="614" width="100" height="28" rx="6" fill="#22C55E" opacity="0.08"/>
+  <text x="146" y="633" font-family="Arial,sans-serif" font-size="10" fill="#22C55E">75/75 Tests</text>
+  <rect x="240" y="614" width="120" height="28" rx="6" fill="#22C55E" opacity="0.08"/>
+  <text x="256" y="633" font-family="Arial,sans-serif" font-size="10" fill="#22C55E">WCAG 2.1 AA</text>
+  <!-- Footer -->
+  <text x="250" y="760" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.15" text-anchor="middle" letter-spacing="3">GreenSense · greensense-app.web.app</text>
+</svg>

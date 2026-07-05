@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700">
+  <rect width="500" height="700" fill="#0C0C0C"/>
+  <rect x="0" y="0" width="500" height="56" fill="#0F1114"/>
+  <circle cx="26" cy="28" r="9" fill="#22C55E" opacity="0.8"/>
+  <text x="44" y="34" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#D7E2EA">GreenSense</text>
+  <text x="280" y="34" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.35">My Carbon Report</text>
+  <!-- Step wizard -->
+  <text x="20" y="84" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.35" letter-spacing="2">CARBON CALCULATOR · STEP 3 OF 4</text>
+  <!-- Progress bar -->
+  <rect x="20" y="96" width="460" height="6" rx="3" fill="#141418"/>
+  <rect x="20" y="96" width="345" height="6" rx="3" fill="#22C55E" opacity="0.7"/>
+  <!-- Form -->
+  <text x="20" y="132" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#D7E2EA">🚗 Transport</text>
+  <rect x="20" y="144" width="460" height="50" rx="10" fill="#141418"/>
+  <text x="36" y="164" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.45">Daily commute (km)</text>
+  <text x="36" y="184" font-family="Arial,sans-serif" font-size="14" fill="#D7E2EA">18 km</text>
+  <rect x="20" y="204" width="460" height="50" rx="10" fill="#141418"/>
+  <text x="36" y="224" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.45">Flights per year</text>
+  <text x="36" y="244" font-family="Arial,sans-serif" font-size="14" fill="#D7E2EA">2 flights</text>
+  <!-- Ring chart area -->
+  <text x="20" y="284" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.35" letter-spacing="2">LIVE PREVIEW</text>
+  <rect x="20" y="296" width="460" height="220" rx="14" fill="#141418"/>
+  <!-- Ring chart mock -->
+  <circle cx="180" cy="400" r="70" fill="none" stroke="#22C55E" stroke-width="16" opacity="0.7" stroke-dasharray="220 440"/>
+  <circle cx="180" cy="400" r="70" fill="none" stroke="#D7E2EA" stroke-width="16" opacity="0.15" stroke-dasharray="440 0" stroke-dashoffset="-220"/>
+  <text x="180" y="396" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#22C55E" text-anchor="middle">4.2</text>
+  <text x="180" y="414" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" text-anchor="middle" opacity="0.5">tons CO₂</text>
+  <!-- Legend -->
+  <circle cx="290" cy="370" r="5" fill="#22C55E" opacity="0.7"/>
+  <text x="302" y="374" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.7">Transport 43%</text>
+  <circle cx="290" cy="396" r="5" fill="#22C55E" opacity="0.5"/>
+  <text x="302" y="400" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.6">Energy 37%</text>
+  <circle cx="290" cy="422" r="5" fill="#22C55E" opacity="0.3"/>
+  <text x="302" y="426" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.5">Diet 20%</text>
+  <!-- AI tip card -->
+  <rect x="20" y="534" width="460" height="80" rx="12" fill="#22C55E" opacity="0.07"/>
+  <rect x="20" y="534" width="460" height="80" rx="12" fill="none" stroke="#22C55E" stroke-width="1" opacity="0.2"/>
+  <text x="36" y="558" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#22C55E">✦ Gemini AI Tip</text>
+  <text x="36" y="578" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.75">Switching to an EV could reduce your</text>
+  <text x="36" y="596" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.75">transport footprint by up to 60%.</text>
+  <!-- Footer -->
+  <text x="250" y="660" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.15" text-anchor="middle" letter-spacing="3">GreenSense · Firebase · Gemini</text>
+</svg>

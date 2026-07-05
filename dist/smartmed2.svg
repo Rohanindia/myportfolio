@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700">
+  <rect width="500" height="700" fill="#0C0C0C"/>
+  <rect x="0" y="0" width="500" height="56" fill="#0F1114"/>
+  <text x="16" y="34" font-family="Arial,sans-serif" font-size="18" fill="#3B82F6">⊕</text>
+  <text x="40" y="34" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#D7E2EA">Smart Med</text>
+  <text x="290" y="34" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.35">Prescription Manager</text>
+  <!-- Medication list -->
+  <text x="20" y="82" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.35" letter-spacing="2">ACTIVE PRESCRIPTIONS</text>
+  <rect x="20" y="96" width="460" height="72" rx="12" fill="#141418"/>
+  <rect x="20" y="96" width="4" height="72" rx="2" fill="#3B82F6"/>
+  <text x="38" y="120" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#D7E2EA">Metformin 500mg</text>
+  <text x="38" y="140" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.5">Twice daily · With meals · Diabetes</text>
+  <text x="38" y="158" font-family="Arial,sans-serif" font-size="10" fill="#3B82F6" opacity="0.7">Next dose: 08:00 AM</text>
+  <rect x="400" y="110" width="60" height="22" rx="6" fill="#22C55E" opacity="0.12"/>
+  <text x="416" y="125" font-family="Arial,sans-serif" font-size="10" fill="#22C55E">Active</text>
+  <rect x="20" y="178" width="460" height="72" rx="12" fill="#141418"/>
+  <rect x="20" y="178" width="4" height="72" rx="2" fill="#3B82F6" opacity="0.7"/>
+  <text x="38" y="202" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#D7E2EA">Lisinopril 10mg</text>
+  <text x="38" y="222" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.5">Once daily · Morning · BP</text>
+  <text x="38" y="240" font-family="Arial,sans-serif" font-size="10" fill="#3B82F6" opacity="0.7">Next dose: 07:00 AM</text>
+  <rect x="400" y="192" width="60" height="22" rx="6" fill="#22C55E" opacity="0.12"/>
+  <text x="416" y="207" font-family="Arial,sans-serif" font-size="10" fill="#22C55E">Active</text>
+  <rect x="20" y="260" width="460" height="72" rx="12" fill="#141418"/>
+  <rect x="20" y="260" width="4" height="72" rx="2" fill="#D7E2EA" opacity="0.2"/>
+  <text x="38" y="284" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#D7E2EA" opacity="0.6">Atorvastatin 20mg</text>
+  <text x="38" y="304" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.4">Once daily · Night · Cholesterol</text>
+  <text x="38" y="322" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.3">Next dose: 10:00 PM</text>
+  <rect x="400" y="274" width="60" height="22" rx="6" fill="#D7E2EA" opacity="0.06"/>
+  <text x="413" y="289" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.4">Inactive</text>
+  <!-- Interaction check -->
+  <text x="20" y="360" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.35" letter-spacing="2">INTERACTION CHECK</text>
+  <rect x="20" y="372" width="460" height="72" rx="12" fill="#141418"/>
+  <rect x="20" y="372" width="4" height="72" rx="2" fill="#3B82F6"/>
+  <text x="38" y="396" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#3B82F6">RxNorm API — All Clear</text>
+  <text x="38" y="416" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.65">No dangerous interactions among 3 active</text>
+  <text x="38" y="434" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.65">medications. Last verified 5 min ago.</text>
+  <!-- Adherence card -->
+  <text x="20" y="472" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.35" letter-spacing="2">ADHERENCE THIS WEEK</text>
+  <rect x="20" y="484" width="460" height="80" rx="12" fill="#141418"/>
+  <!-- Progress bars -->
+  <text x="38" y="510" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.6">Metformin</text>
+  <rect x="38" y="516" width="300" height="8" rx="4" fill="#D7E2EA" opacity="0.08"/>
+  <rect x="38" y="516" width="270" height="8" rx="4" fill="#3B82F6" opacity="0.7"/>
+  <text x="346" y="523" font-family="Arial,sans-serif" font-size="10" fill="#3B82F6">90%</text>
+  <text x="38" y="542" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.6">Lisinopril</text>
+  <rect x="38" y="548" width="300" height="8" rx="4" fill="#D7E2EA" opacity="0.08"/>
+  <rect x="38" y="548" width="285" height="8" rx="4" fill="#3B82F6" opacity="0.55"/>
+  <text x="346" y="555" font-family="Arial,sans-serif" font-size="10" fill="#3B82F6">95%</text>
+  <!-- Footer -->
+  <text x="250" y="660" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.15" text-anchor="middle" letter-spacing="3">Smart Med · FastAPI · Python</text>
+</svg>

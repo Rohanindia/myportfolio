@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700">
+  <rect width="500" height="700" fill="#0C0C0C"/>
+  <!-- Header -->
+  <rect x="0" y="0" width="500" height="56" fill="#0F1114"/>
+  <rect x="16" y="16" width="18" height="18" rx="4" fill="#7C3AED" opacity="0.9"/>
+  <text x="42" y="31" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#D7E2EA">SwarmForge</text>
+  <text x="300" y="31" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.4">Live Activity Log</text>
+  <!-- Log entries -->
+  <text x="20" y="82" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.35" letter-spacing="2">EXECUTION TRACE</text>
+  <!-- Entry 1 -->
+  <rect x="20" y="96" width="460" height="58" rx="10" fill="#141418"/>
+  <rect x="20" y="96" width="3" height="58" rx="1.5" fill="#7C3AED"/>
+  <text x="36" y="115" font-family="Arial,sans-serif" font-size="10" fill="#7C3AED" font-weight="700">ORCHESTRATOR</text>
+  <text x="380" y="115" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.3">09:14:22</text>
+  <text x="36" y="134" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.8">Swarm initialized. Dispatching subtasks</text>
+  <text x="36" y="148" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.5">to 2 specialized agents...</text>
+  <!-- Entry 2 -->
+  <rect x="20" y="164" width="460" height="58" rx="10" fill="#141418"/>
+  <rect x="20" y="164" width="3" height="58" rx="1.5" fill="#7C3AED" opacity="0.7"/>
+  <text x="36" y="183" font-family="Arial,sans-serif" font-size="10" fill="#7C3AED" font-weight="700" opacity="0.8">RESEARCHAGENT</text>
+  <text x="380" y="183" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.3">09:14:23</text>
+  <text x="36" y="202" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.8">Querying knowledge base for topic:</text>
+  <text x="36" y="216" font-family="Arial,sans-serif" font-size="11" fill="#7C3AED" opacity="0.8">"AI governance frameworks 2024"</text>
+  <!-- Entry 3 -->
+  <rect x="20" y="232" width="460" height="58" rx="10" fill="#141418"/>
+  <rect x="20" y="232" width="3" height="58" rx="1.5" fill="#7C3AED" opacity="0.6"/>
+  <text x="36" y="251" font-family="Arial,sans-serif" font-size="10" fill="#7C3AED" font-weight="700" opacity="0.7">ANALYSISAGENT</text>
+  <text x="380" y="251" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.3">09:14:25</text>
+  <text x="36" y="270" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.7">Processing 14 retrieved sources.</text>
+  <text x="36" y="284" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.5">Extracting key arguments...</text>
+  <!-- Entry 4 -->
+  <rect x="20" y="300" width="460" height="58" rx="10" fill="#141418"/>
+  <rect x="20" y="300" width="3" height="58" rx="1.5" fill="#7C3AED" opacity="0.5"/>
+  <text x="36" y="319" font-family="Arial,sans-serif" font-size="10" fill="#7C3AED" font-weight="700" opacity="0.6">RESEARCHAGENT</text>
+  <text x="380" y="319" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.3">09:14:28</text>
+  <text x="36" y="338" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.6">Completed. Found 14 relevant sources.</text>
+  <text x="36" y="352" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.4">Returning context to orchestrator.</text>
+  <!-- Entry 5 — Consensus -->
+  <rect x="20" y="368" width="460" height="68" rx="10" fill="#7C3AED" opacity="0.08"/>
+  <rect x="20" y="368" width="460" height="68" rx="10" fill="none" stroke="#7C3AED" stroke-width="1" opacity="0.3"/>
+  <rect x="20" y="368" width="3" height="68" rx="1.5" fill="#7C3AED"/>
+  <text x="36" y="390" font-family="Arial,sans-serif" font-size="10" fill="#7C3AED" font-weight="700">DECISIONAGENT</text>
+  <text x="380" y="390" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.3">09:14:35</text>
+  <text x="36" y="410" font-family="Arial,sans-serif" font-size="12" fill="#D7E2EA" font-weight="700">✦ Consensus Reached</text>
+  <text x="36" y="428" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.6">Final decision compiled. Confidence: 94%</text>
+  <!-- Stats row -->
+  <rect x="20" y="460" width="140" height="64" rx="10" fill="#141418"/>
+  <text x="36" y="483" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.4">Agents</text>
+  <text x="36" y="508" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#7C3AED">3</text>
+  <rect x="170" y="460" width="140" height="64" rx="10" fill="#141418"/>
+  <text x="186" y="483" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.4">Latency</text>
+  <text x="186" y="508" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#D7E2EA">13s</text>
+  <rect x="320" y="460" width="160" height="64" rx="10" fill="#141418"/>
+  <text x="336" y="483" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.4">Confidence</text>
+  <text x="336" y="508" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#D7E2EA">94%</text>
+  <!-- Bottom label -->
+  <text x="250" y="660" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.15" text-anchor="middle" letter-spacing="3">SwarmForge · Multi-Agent AI</text>
+</svg>

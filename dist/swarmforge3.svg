@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 800">
+  <rect width="500" height="800" fill="#0C0C0C"/>
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="150" height="800" fill="#0F1114"/>
+  <rect x="14" y="20" width="16" height="16" rx="3" fill="#7C3AED"/>
+  <text x="36" y="32" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#D7E2EA">Swarm</text>
+  <!-- Sidebar items -->
+  <rect x="8" y="60" width="134" height="34" rx="8" fill="#7C3AED" opacity="0.15"/>
+  <text x="22" y="82" font-family="Arial,sans-serif" font-size="11" fill="#7C3AED">⬡  Dashboard</text>
+  <text x="22" y="122" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.45">↻  Agent Hub</text>
+  <text x="22" y="158" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.45">▶  Execution</text>
+  <text x="22" y="194" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.45">≡  Task Queue</text>
+  <text x="22" y="230" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.45">⚙  Settings</text>
+  <!-- Agent status pills -->
+  <text x="14" y="290" font-family="Arial,sans-serif" font-size="9" fill="#D7E2EA" opacity="0.3" letter-spacing="1">AGENTS</text>
+  <rect x="8" y="300" width="134" height="28" rx="6" fill="#141418"/>
+  <circle cx="22" cy="314" r="4" fill="#7C3AED"/>
+  <text x="32" y="318" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.8">Orchestrator</text>
+  <rect x="8" y="334" width="134" height="28" rx="6" fill="#141418"/>
+  <circle cx="22" cy="348" r="4" fill="#7C3AED" opacity="0.7"/>
+  <text x="32" y="352" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.7">ResearchAgent</text>
+  <rect x="8" y="368" width="134" height="28" rx="6" fill="#141418"/>
+  <circle cx="22" cy="382" r="4" fill="#7C3AED" opacity="0.5"/>
+  <text x="32" y="386" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.6">AnalysisAgent</text>
+  <rect x="8" y="402" width="134" height="28" rx="6" fill="#141418"/>
+  <circle cx="22" cy="416" r="4" fill="#D7E2EA" opacity="0.2"/>
+  <text x="32" y="420" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.35">DecisionAgent</text>
+  <!-- Divider -->
+  <rect x="150" y="0" width="1" height="800" fill="#D7E2EA" opacity="0.07"/>
+  <!-- Main panel -->
+  <text x="166" y="34" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#D7E2EA">Deliberation Timeline</text>
+  <text x="166" y="52" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.35">Task: AI Governance Analysis · Run #7</text>
+  <!-- Timeline -->
+  <rect x="175" y="70" width="2" height="420" fill="#7C3AED" opacity="0.2"/>
+  <!-- Step 1 -->
+  <circle cx="176" cy="90" r="6" fill="#7C3AED"/>
+  <rect x="194" y="74" width="280" height="48" rx="8" fill="#141418"/>
+  <text x="210" y="93" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#7C3AED">Task Initialized</text>
+  <text x="210" y="110" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.6">Orchestrator received prompt</text>
+  <text x="440" y="93" font-family="Arial,sans-serif" font-size="9" fill="#D7E2EA" opacity="0.3">0s</text>
+  <!-- Step 2 -->
+  <circle cx="176" cy="160" r="6" fill="#7C3AED" opacity="0.8"/>
+  <rect x="194" y="144" width="280" height="48" rx="8" fill="#141418"/>
+  <text x="210" y="163" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#7C3AED" opacity="0.8">Research Phase</text>
+  <text x="210" y="180" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.5">14 sources retrieved</text>
+  <text x="440" y="163" font-family="Arial,sans-serif" font-size="9" fill="#D7E2EA" opacity="0.3">+4s</text>
+  <!-- Step 3 -->
+  <circle cx="176" cy="230" r="6" fill="#7C3AED" opacity="0.6"/>
+  <rect x="194" y="214" width="280" height="48" rx="8" fill="#141418"/>
+  <text x="210" y="233" font-family="Arial,sans-serif" font-size="11" font-weight="700" fill="#7C3AED" opacity="0.7">Analysis Phase</text>
+  <text x="210" y="250" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.4">Arguments extracted and ranked</text>
+  <text x="440" y="233" font-family="Arial,sans-serif" font-size="9" fill="#D7E2EA" opacity="0.3">+8s</text>
+  <!-- Step 4 — Consensus -->
+  <circle cx="176" cy="340" r="8" fill="#7C3AED"/>
+  <rect x="194" y="316" width="280" height="64" rx="8" fill="#7C3AED" opacity="0.1"/>
+  <rect x="194" y="316" width="280" height="64" rx="8" fill="none" stroke="#7C3AED" stroke-width="1" opacity="0.4"/>
+  <text x="210" y="340" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#D7E2EA">✦ Consensus Reached</text>
+  <text x="210" y="358" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.7">Confidence Score: 94%</text>
+  <text x="210" y="374" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.4">All agents in agreement</text>
+  <text x="440" y="340" font-family="Arial,sans-serif" font-size="9" fill="#D7E2EA" opacity="0.3">+13s</text>
+  <!-- Footer label -->
+  <text x="325" y="760" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.15" text-anchor="middle" letter-spacing="3">SwarmForge · Python · Groq</text>
+</svg>

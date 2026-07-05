@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 800">
+  <rect width="500" height="800" fill="#0C0C0C"/>
+  <!-- Header -->
+  <rect x="0" y="0" width="500" height="56" fill="#0F1114"/>
+  <circle cx="28" cy="28" r="10" fill="#00C9A7" opacity="0.9"/>
+  <line x1="23" y1="28" x2="33" y2="28" stroke="#0C0C0C" stroke-width="2" stroke-linecap="round"/>
+  <line x1="28" y1="23" x2="28" y2="33" stroke="#0C0C0C" stroke-width="2" stroke-linecap="round"/>
+  <text x="48" y="33" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#D7E2EA" letter-spacing="0.5">MedMentor</text>
+  <text x="340" y="33" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.4">Patient Record · FHIR R4</text>
+  <!-- Patient info -->
+  <rect x="20" y="72" width="460" height="90" rx="14" fill="#141418"/>
+  <circle cx="62" cy="117" r="22" fill="#00C9A7" opacity="0.15"/>
+  <text x="62" y="123" font-family="Arial,sans-serif" font-size="16" fill="#00C9A7" text-anchor="middle" font-weight="700">RK</text>
+  <text x="96" y="103" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#D7E2EA">Ramesh Kumar</text>
+  <text x="96" y="122" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.5">Male · 54y · Blood: O+</text>
+  <text x="96" y="141" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.4">FHIR ID: patient-2024-RK-041</text>
+  <rect x="390" y="87" width="70" height="22" rx="6" fill="#00C9A7" opacity="0.15"/>
+  <text x="404" y="103" font-family="Arial,sans-serif" font-size="10" fill="#00C9A7">Active</text>
+  <!-- Medications -->
+  <text x="20" y="188" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.4" letter-spacing="2">CURRENT MEDICATIONS</text>
+  <rect x="20" y="200" width="460" height="52" rx="10" fill="#141418"/>
+  <text x="36" y="221" font-family="Arial,sans-serif" font-size="12" fill="#D7E2EA">Metformin 500mg</text>
+  <text x="36" y="240" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.4">Twice daily · Diabetes management</text>
+  <rect x="390" y="212" width="70" height="20" rx="5" fill="#00C9A7" opacity="0.1"/>
+  <text x="406" y="226" font-family="Arial,sans-serif" font-size="10" fill="#00C9A7">No conflict</text>
+  <rect x="20" y="260" width="460" height="52" rx="10" fill="#141418"/>
+  <text x="36" y="281" font-family="Arial,sans-serif" font-size="12" fill="#D7E2EA">Lisinopril 10mg</text>
+  <text x="36" y="300" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.4">Once daily · Hypertension</text>
+  <rect x="390" y="272" width="70" height="20" rx="5" fill="#00C9A7" opacity="0.1"/>
+  <text x="406" y="286" font-family="Arial,sans-serif" font-size="10" fill="#00C9A7">No conflict</text>
+  <!-- Drug interaction check -->
+  <text x="20" y="340" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.4" letter-spacing="2">DRUG INTERACTION ANALYSIS</text>
+  <rect x="20" y="352" width="460" height="72" rx="12" fill="#141418"/>
+  <rect x="20" y="352" width="4" height="72" rx="2" fill="#00C9A7"/>
+  <text x="36" y="375" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#00C9A7">RxNorm Verified — 8,247 interactions checked</text>
+  <text x="36" y="395" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.6">All current medications: Safe to co-administer</text>
+  <text x="36" y="412" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.4">Last checked: 2 minutes ago · Auto-refreshing</text>
+  <!-- AI insights -->
+  <text x="20" y="454" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.4" letter-spacing="2">AI CLINICAL INSIGHTS</text>
+  <rect x="20" y="466" width="460" height="100" rx="12" fill="#00C9A7" opacity="0.06"/>
+  <rect x="20" y="466" width="460" height="100" rx="12" fill="none" stroke="#00C9A7" stroke-width="1" opacity="0.2"/>
+  <text x="36" y="490" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#00C9A7">Groq Llama 3.1 Analysis</text>
+  <text x="36" y="510" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.75">Consider HbA1c monitoring given long-term</text>
+  <text x="36" y="528" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.75">Metformin use. B12 supplementation may</text>
+  <text x="36" y="546" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.75">be advisable after 12+ months of therapy.</text>
+  <!-- Tech stack -->
+  <text x="250" y="720" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.2" text-anchor="middle" letter-spacing="3">MedMentor · FHIR R4 · Groq · FastAPI</text>
+</svg>

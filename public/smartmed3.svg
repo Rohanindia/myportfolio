@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 800">
+  <rect width="500" height="800" fill="#0C0C0C"/>
+  <rect x="0" y="0" width="500" height="56" fill="#0F1114"/>
+  <text x="16" y="34" font-family="Arial,sans-serif" font-size="18" fill="#3B82F6">⊕</text>
+  <text x="40" y="34" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#D7E2EA">Smart Med</text>
+  <text x="290" y="34" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.35">Secure Auth · REST API</text>
+  <!-- Auth section -->
+  <text x="20" y="82" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.35" letter-spacing="2">AUTHENTICATION · JWT + BCRYPT</text>
+  <rect x="20" y="96" width="460" height="130" rx="14" fill="#141418"/>
+  <rect x="20" y="96" width="4" height="130" rx="2" fill="#3B82F6"/>
+  <text x="38" y="120" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#3B82F6">Secure Session</text>
+  <text x="38" y="143" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.6">User: priya.mehta@example.com</text>
+  <text x="38" y="163" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.5">Role: Patient · Expires in 22h 14m</text>
+  <rect x="38" y="178" width="170" height="30" rx="8" fill="#3B82F6" opacity="0.12"/>
+  <text x="54" y="198" font-family="Arial,sans-serif" font-size="11" fill="#3B82F6">bcrypt rounds: 12</text>
+  <rect x="220" y="178" width="160" height="30" rx="8" fill="#3B82F6" opacity="0.08"/>
+  <text x="236" y="198" font-family="Arial,sans-serif" font-size="11" fill="#3B82F6">HTTPS enforced</text>
+  <!-- API response card -->
+  <text x="20" y="252" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.35" letter-spacing="2">API RESPONSE · JSON</text>
+  <rect x="20" y="264" width="460" height="200" rx="14" fill="#0F1114"/>
+  <rect x="20" y="264" width="460" height="200" rx="14" fill="none" stroke="#D7E2EA" stroke-width="0.5" opacity="0.1"/>
+  <text x="36" y="294" font-family="monospace" font-size="11" fill="#D7E2EA" opacity="0.4">GET /patients/me/medications</text>
+  <rect x="36" y="302" width="420" height="1" fill="#D7E2EA" opacity="0.06"/>
+  <text x="36" y="322" font-family="monospace" font-size="11" fill="#3B82F6">{"status": "200 OK",</text>
+  <text x="36" y="342" font-family="monospace" font-size="11" fill="#D7E2EA" opacity="0.65">  "user_id": "patient-091",</text>
+  <text x="36" y="362" font-family="monospace" font-size="11" fill="#D7E2EA" opacity="0.65">  "medications": [</text>
+  <text x="36" y="382" font-family="monospace" font-size="11" fill="#22C55E">    {"name": "Metformin", "dose": "500mg"},</text>
+  <text x="36" y="402" font-family="monospace" font-size="11" fill="#22C55E">    {"name": "Lisinopril", "dose": "10mg"}</text>
+  <text x="36" y="422" font-family="monospace" font-size="11" fill="#D7E2EA" opacity="0.65">  ],</text>
+  <text x="36" y="442" font-family="monospace" font-size="11" fill="#3B82F6">  "interactions": "clear"}</text>
+  <!-- User management -->
+  <text x="20" y="490" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.35" letter-spacing="2">CONCURRENT USER SUPPORT</text>
+  <rect x="20" y="502" width="460" height="80" rx="12" fill="#141418"/>
+  <!-- User avatars -->
+  <circle cx="50" cy="542" r="18" fill="#3B82F6" opacity="0.2"/>
+  <text x="50" y="548" font-family="Arial,sans-serif" font-size="11" fill="#3B82F6" text-anchor="middle">PM</text>
+  <circle cx="86" cy="542" r="18" fill="#3B82F6" opacity="0.15"/>
+  <text x="86" y="548" font-family="Arial,sans-serif" font-size="11" fill="#3B82F6" text-anchor="middle">RK</text>
+  <circle cx="122" cy="542" r="18" fill="#3B82F6" opacity="0.12"/>
+  <text x="122" y="548" font-family="Arial,sans-serif" font-size="11" fill="#3B82F6" text-anchor="middle">AS</text>
+  <circle cx="158" cy="542" r="18" fill="#3B82F6" opacity="0.1"/>
+  <text x="158" y="548" font-family="Arial,sans-serif" font-size="11" fill="#3B82F6" text-anchor="middle">+245</text>
+  <text x="196" y="540" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#D7E2EA">248 concurrent users</text>
+  <text x="196" y="558" font-family="Arial,sans-serif" font-size="11" fill="#D7E2EA" opacity="0.4">Isolated SQLite schemas · No cross-access</text>
+  <!-- Tech stack -->
+  <rect x="20" y="604" width="460" height="52" rx="12" fill="#3B82F6" opacity="0.07"/>
+  <rect x="20" y="604" width="460" height="52" rx="12" fill="none" stroke="#3B82F6" stroke-width="1" opacity="0.2"/>
+  <text x="250" y="636" font-family="Arial,sans-serif" font-size="12" fill="#3B82F6" text-anchor="middle">FastAPI · Python · SQLite · JWT · bcrypt · RxNorm</text>
+  <!-- Footer -->
+  <text x="250" y="760" font-family="Arial,sans-serif" font-size="10" fill="#D7E2EA" opacity="0.15" text-anchor="middle" letter-spacing="3">Smart Med · Personal Healthcare Project</text>
+</svg>
