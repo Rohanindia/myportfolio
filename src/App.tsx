@@ -2,6 +2,7 @@ import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import ServicesSection from './components/ServicesSection';
 import ProjectsSection from './components/ProjectsSection';
+import DaaSection from './components/DaaSection';
 import ContactSection from './components/ContactSection';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <AboutSection />
       <ServicesSection />
       <ProjectsSection />
+      <DaaSection />
       <ContactSection />
     </main>
   );
