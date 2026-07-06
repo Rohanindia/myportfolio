@@ -86,6 +86,16 @@ const DaaSection = () => {
                 Algorithm visualisations, complexity breakdowns, and data-structure
                 deep-dives are on their way. Check back soon.
               </p>
+              
+              <a
+                href="https://drive.google.com/file/d/1uTHqAYFE18seMEh5Te2MQOgX1nFc1AQi/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-6 rounded-full border border-[#D7E2EA]/20 bg-[#D7E2EA]/10 px-8 py-4 font-bold uppercase tracking-widest text-[#D7E2EA] transition-all hover:bg-[#D7E2EA] hover:text-[#0F1114]"
+                style={{ fontSize: 'clamp(0.75rem, 1.2vw, 0.9rem)' }}
+              >
+                View DAA Program
+              </a>
             </div>
 
             {/* Animated dots */}
